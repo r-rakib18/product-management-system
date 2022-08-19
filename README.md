@@ -8,46 +8,47 @@
 ##3. All crud operation perform with resource route and ajax.
 
 ##4. Seeder data for login
-	. Admin
+	 Admin
 		email: admin@email.com
 		phone: 123456789101
 		password: 123456S
  
-	. Manager
+	 Manager
 		email: manager@email.com
 		phone: 123456789102
 		password: 123456 
 ##5. Projrct Assesment
-	. PHP Version: 7.4
-	. Laravel : 8.*
+	 PHP Version: 7.4
+	 Laravel : 8.*
 
 
 ##Steps:
 
 ->open your server's root directory.
 ->open terminal or gitbash. clone the project.
-...
-git clone 
-...
+```
+git clone https://github.com/r-rakib18/product-management-system.git
+
+```
 -> move to project folder.
-...
+```
 cd 
-....
+```
 ->install composer for vendor files. (e.g: composer install)
-...
+```
 composer install
-...
+```
 ->follow commands below:
-...
+```
 cp .env.example .env
-...
-...
+```
+```
 php artisan key:generate
-...
+```
 -> create database on your local machine name projectAssisment. (if necessary , change db credentionals from .env file. default: user=root and password='')
-...
+```
 php artisan migrate
-...
-...
+```
+```
 php artisan db:seed
-...
+```
