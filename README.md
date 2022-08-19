@@ -32,7 +32,7 @@ git clone https://github.com/r-rakib18/product-management-system.git
 ```
 -> move to project folder.
 ```
-cd 
+cd product-management-system
 ```
 ->install composer for vendor files. (e.g: composer install)
 ```
