@@ -1,4 +1,4 @@
-##1. User type-based authentication system using laravel default auth
+## 1. User type-based authentication system using laravel default auth
 
 	. Authentication system is developed by using laravel/ui bootstrap auth with roles and permission.
     
@@ -10,12 +10,12 @@
     
 	. Admin have all the access (create, view, edit, delete) of the system and Manager only have (category view and product view) access. 
     
-##2. User can login with email or phone number.
+## 2. User can login with email or phone number.
 
-##3. All crud operation perform with resource route and ajax.
+## 3. All crud operation perform with resource route and ajax.
 
 
-##4. Seeder data for login
+## 4. Seeder data for login
 	 Admin
 		email: admin@email.com
 		phone: 123456789101
@@ -26,12 +26,12 @@
 		phone: 123456789102
 		password: 123456 
         
-##5. Project Assesment
+## 5. Project Assesment
 	 PHP Version: 7.4
 	 Laravel : 8.*
 
 
-##Steps:
+### Steps:
 
 ->open your server's root directory.
 ->open terminal or gitbash. clone the project.
